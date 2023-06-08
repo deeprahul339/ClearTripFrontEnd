@@ -1,0 +1,20 @@
+.listParentContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 3px;
+}
+
+.listItems {
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.listItemSelected {
+  color: blue;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: underline;
+}

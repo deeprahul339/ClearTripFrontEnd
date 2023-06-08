@@ -1,0 +1,48 @@
+.topContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding: 10px 5px;
+  background-color: #f66826;
+}
+
+p {
+  margin-block: 5px;
+}
+h4 {
+  height: 0;
+}
+
+.button_One {
+  background: black;
+  color: white;
+  border-radius: 3px;
+  border: 0px;
+  padding: 7px;
+}
+
+.loginButton {
+  padding: 5px;
+  background: white;
+  border-radius: 15px;
+  color: lightblue;
+  border: 1px solid;
+}
+
+.icon {
+  padding-right: 5px;
+}
+
+.clearTripText {
+  color: #f66826;
+  font-size: 15px;
+  font-family: bold;
+  font-weight: 800;
+}
+
+.bottomContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 10px;
+  margin-top: 10px;
+}

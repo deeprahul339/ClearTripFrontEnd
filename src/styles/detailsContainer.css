@@ -1,0 +1,71 @@
+.primaryContainer,
+.secondaryContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.primaryText {
+  color: gray;
+  font-size: 12px;
+}
+
+.detailsParent {
+  margin-block: 20px;
+  margin-inline: 15px;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+
+.mainParentContainer :last-child {
+  border: none;
+}
+
+.secondaryText {
+  font-size: 10px;
+}
+
+.bottomButton {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  height: 40px;
+  border: 1px solid #f66826;
+  background-color: #f66826;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.bottom-Container {
+  text-align: start;
+  padding: 10px;
+}
+
+.recentText {
+  font-weight: 500;
+}
+
+.recentInfo {
+  color: gray;
+  font-size: 12px;
+}
+
+.dateText {
+  border-radius: 2px;
+  background-color: lightgray;
+  padding: 10px;
+  font-size: 12px;
+  max-width: 80px;
+  margin-bottom: 70px;
+}
+
+.navBarParent {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid lightgray;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  padding-top: 10px;
+}
